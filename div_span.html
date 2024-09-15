@@ -1,0 +1,34 @@
+<!-- gruplandirma etiketleridir, toplu degisimlerde ise yarar,
+paragraf içinde div etiketi verirsek p etiketi gibi arada boşluk bırakmaz satırı 
+div etiketinin bittiği yerde direkt alt satıra geçer,
+eğer span ile gruplandırma yaparsak divdeki gibi alt satıra geçme olmaz -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VakifBank</title>
+  </head>
+  <body>
+    <div id="header" style="color: cadetblue">
+      <h1>Başlık</h1>
+      <p>
+        Lorem ipsum dolor sit
+        <span style="color: blue"> amet consectetur adipisicing elit.</span>
+        Illum unde fugiat voluptatum ipsum natus nemo quaerat quidem inventore
+        rerum aperiam, voluptatibus magnam ea velit incidunt porro pariatur iste
+        veniam? Doloribus.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        voluptatem placeat assumenda dignissimos nulla aliquid repellat quos
+        provident ullam, nesciunt laborum fugit, nostrum accusantium veniam
+        alias voluptates recusandae ipsum neque.
+      </p>
+    </div>
+    <div id="Menu">Menüler</div>
+    <div id="Content">İçerikler</div>
+    <div id="Footer">Sayfa Hakkında Açıklamalar</div>
+  </body>
+</html>
